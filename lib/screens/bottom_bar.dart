@@ -21,7 +21,7 @@ class _BottomBarState extends State<BottomBar> {
     const ProfileScreen(),
   ];
 
-  int _selectedIndex = 3;
+  int _selectedIndex = 0;
 
   void _onItemTapped(int index){
     setState(() {
